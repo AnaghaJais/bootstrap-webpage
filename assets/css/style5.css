@@ -1,0 +1,38 @@
+.jumbotron{
+	text-align: center;
+	background: none;
+}
+.sectionlight{
+	background-color: #eceeef;
+	padding:2rem;
+}
+.sectiondark{
+	background-color: #cccccc;
+	padding:2rem;
+}
+.wrapper{
+margin-top:2rem;
+
+}
+button.wrapperbutton{
+	display:block;
+	margin:auto;
+	background-color: red;
+	color:white;
+}
+h5.modal-title{	
+	margin:auto;
+}
+button.image1button{
+	display:block;
+	margin:auto;
+	width:70%;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+img.image23{
+	display:block;
+	margin:auto;
+	width:70%;
+
+}
