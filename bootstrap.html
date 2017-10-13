@@ -4,6 +4,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <title>Bootstarp skate or die</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="../css/style5.css">
    </head>
    <body>
@@ -126,7 +127,7 @@
                      <img class="img-fluid image23" src="../images/skate1.jpg">
                      <div class="row">
                         <div class="col-sm-12">
-                           <button type="button" class="btn btn-danger btn-lg image1button">kickflip</button>
+                           <button type="button" class="btn btn-danger btn-lg image1button"  data-toggle="modal" data-target=".kickflip-modal-lg">kickflip</button>
                         </div>
                      </div>
                   </div>
@@ -134,7 +135,7 @@
                      <img class="img-fluid image23" src="../images/skate2.jpg">
                      <div class="row">
                         <div class="col-sm-12">
-                           <button type="button" class="btn btn-danger btn-lg image1button">kickflip1</button>
+                           <button type="button" class="btn btn-danger btn-lg image1button"   data-toggle="modal" data-target=".kickflip1-modal-md">kickflip1</button>
                         </div>
                      </div>
                   </div>
@@ -142,14 +143,33 @@
                      <img class="img-fluid image23" src="../images/skating.jpg">
                      <div class="row">
                         <div class="col-sm-12">
-                           <button type="button" class="btn btn-danger btn-lg image1button">kickflip3</button>
+                           <button type="button" class="btn btn-danger btn-lg image1button"    data-toggle="modal" data-target=".kickflip3-modal-sm">kickflip3</button>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
+         </div>        
       </div>
+
+
+     <footer class="footer bg-4">
+        <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 col-lg-3">
+                <img class="img-responsive img-fluid size" src="../images/kickflip.png">
+               </div>
+               <div class="col-sm-12 col-lg-9">
+                  <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                  <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+                  <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+               </div>
+            </div>
+        </div>
+     </footer>
+
+
+
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
          <div class="modal-dialog" role="document">
@@ -181,12 +201,54 @@
                      </div>
                   </div>
                   <div class="modal-footer">
-                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>			        
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>               
                   </div>
                </div>
             </div>
          </div>
       </div>
+
+
+    <!--Klickflip Modal-->
+           <div class="modal fade kickflip-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="embed-responsive embed-responsive-16by9">
+                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+   
+
+    <!--klickflip2-->
+
+      <div class="modal fade kickflip1-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+          <div class="modal-content">
+                 <div class="embed-responsive embed-responsive-16by9">
+                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
+                  </div>
+          </div>
+        </div>
+      </div>
+    <!--kickflip3-->
+
+      <div class="modal fade kickflip3-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+                     <div class="embed-responsive embed-responsive-16by9">
+                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
+                     </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>

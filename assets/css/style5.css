@@ -34,5 +34,27 @@ img.image23{
 	display:block;
 	margin:auto;
 	width:70%;
+}
 
+.bg-4{
+background-color: #2f2f2f;
+      color: #fff;
+}
+.size{
+width:50%;
+padding:1rem;
+}
+
+.fa-facebook-square{
+	color:blue;
+	padding:1rem;
+}
+
+.fa-google-plus-square{
+	color:red;
+padding:1rem;
+}
+.fa-instagram{
+	color:white;
+padding:1rem;
 }
